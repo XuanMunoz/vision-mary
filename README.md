@@ -4,10 +4,10 @@ Gafas asistivas basadas en **ESP32-S3** que describen lo que ves, responden preg
 
 > Proyecto de arte, tecnología y accesibilidad. **Firmware gratuito (freeware, código cerrado).**
 
-![Visual Mary](docs/images/gafas-hero.jpg)
+![vision Mary](docs/images/gafas-hero.jpg)
 
 [![Flashear firmware](https://img.shields.io/badge/Flashear-firmware-blue)](https://www.juandmunoz.xyz/vision_mary/)
-[![Última versión](https://img.shields.io/github/v/release/xuanmunoz/visual-mary)](https://github.com/xuanmunoz/visual-mary/releases/latest)
+[![Última versión](https://img.shields.io/github/v/release/xuanmunoz/vision-mary)](https://github.com/xuanmunoz/vision-mary/releases/latest)
 
 ---
 
@@ -47,14 +47,14 @@ Requiere **Chrome o Edge en escritorio** (Web Serial). No funciona en celular ni
 
 ### Instalación manual con el `.bin`
 
-Descarga el archivo desde [**Releases**](https://github.com/xuanmunoz/visual-mary/releases/latest) y verifica su integridad:
+Descarga el archivo desde [**Releases**](https://github.com/xuanmunoz/vision-mary/releases/latest) y verifica su integridad:
 
 ```bash
 # Linux / macOS
-sha256sum visual-mary-vX.Y.Z.bin
+sha256sum vision-mary-vX.Y.Z.bin
 
 # Windows (PowerShell)
-Get-FileHash visual-mary-vX.Y.Z.bin -Algorithm SHA256
+Get-FileHash vision-mary-vX.Y.Z.bin -Algorithm SHA256
 ```
 
 El resultado debe coincidir con el SHA-256 publicado en las notas de cada versión.
@@ -124,7 +124,7 @@ El resultado debe coincidir con el SHA-256 publicado en las notas de cada versi�
 
 ##  Aviso importante
 
-Las descripciones y respuestas son generadas por inteligencia artificial y **pueden ser incorrectas o incompletas**. Visual Mary **no es un dispositivo de seguridad ni médico**: no lo uses para decisiones críticas como cruzar una calle, leer medicamentos o confiar en avisos de peligro.
+Las descripciones y respuestas son generadas por inteligencia artificial y **pueden ser incorrectas o incompletas**. vision Mary **no es un dispositivo de seguridad ni médico**: no lo uses para decisiones críticas como cruzar una calle, leer medicamentos o confiar en avisos de peligro.
 
 ---
 
@@ -146,7 +146,7 @@ Este proyecto usa componentes de terceros con sus propias licencias. Ver [THIRD_
 
 ##  Reportar errores y sugerencias
 
-Abre un [Issue](https://github.com/xuanmunoz/visual-mary/issues) e incluye:
+Abre un [Issue](https://github.com/xuanmunoz/vision-mary/issues) e incluye:
 
 - Versión del firmware
 - Qué estabas haciendo (clic simple, doble o prolongado)
